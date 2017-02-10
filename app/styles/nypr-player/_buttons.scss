@@ -296,7 +296,8 @@
     fill: $nypr-player-button-color;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     outline: 0;
 
     .nypr-player-queue-icon {
@@ -314,7 +315,8 @@
     }
   }
 
-  &:active {
+  &:active,
+  &.active {
     outline: 0;
     .nypr-player-queue-icon {
       .nypr-player-queue-bar,
