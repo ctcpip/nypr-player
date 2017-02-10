@@ -9,6 +9,8 @@ export default Ember.Component.extend({
   hifi                  : service(),
   classNames            : ['nypr-player'],
   classNameBindings     : ['isAudiostream'],
+  attributeBindings     : ['tabindex'],
+  tabindex              : 0,
 
   isReady               : reads('hifi.isReady'),
   isPlaying             : reads('hifi.isPlaying'),
