@@ -156,12 +156,12 @@
 
 /* Hidden in mobile */
 
-.nypr-player-button.mod-volume {
+.nypr-player-volume-control {
   display: none;
   background-image: none;
 
   @include mq($nypr-player-medium-and-up) {
-    @include display-flex(inline-flex);
+    @include display-flex;
   }
 }
 
