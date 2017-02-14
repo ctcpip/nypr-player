@@ -5,6 +5,7 @@ export default Ember.Component.extend({
   layout,
   tagName: 'button',
   classNames: ['nypr-player-button mod-rewind'],
+  classNameBindings: ['active'],
   'aria-text': "rewind 15 seconds",
-  'aria-labelled-by': "rewind-label"
+  'aria-labelledby': "rewind-label"
 });
