@@ -11,8 +11,6 @@ export default Ember.Component.extend({
   isTouching              : false,
   classNames              : ['nypr-player-progress'],
   classNameBindings       : ['isHovering', 'isDragging', 'isTouching', 'isLoaded'],
-  attributeBindings       : ['tabindex'],
-  tabindex                : 0,
   downloadedPercentage    : computed('downloaded', function() {
     let downloaded = get(this, 'downloaded');
     return htmlSafe(`width: ${(downloaded) * 100}%;`);
