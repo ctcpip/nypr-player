@@ -14,7 +14,7 @@ export default Ember.Component.extend({
 
   tagName             : 'button',
   classNames          : ['nypr-player-button mod-listen'],
-  classNameBindings   : ['isHovering', 'playState'],
+  classNameBindings   : ['isHovering', 'playState', 'active'],
   attributeBindings   : ['aria-label', 'title', 'disabled', 'data-test-selector'],
 
   title               : computed('currentTitle', function() {
