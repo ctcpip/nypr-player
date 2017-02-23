@@ -33,7 +33,7 @@ export default Ember.Component.extend(KeyboardCommandMixin, {
   didInsertElement() {
     // focus on first launch
     if (get(this, 'autofocus')) {
-      next(() => { this.$().focus() });
+      next(() => { this.$().focus(); });
     }
   },
 
