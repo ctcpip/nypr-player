@@ -43,6 +43,8 @@
     "ember-resolver": "^2.0.3",
     "ember-truth-helpers": "1.3.0",
     "loader.js": "^4.0.10",
+    "ember-hifi": "nypublicradio/ember-hifi#master",
+    "ember-holygrail-layout": "nypublicradio/ember-holygrail-layout",
     "nypr-ui": "nypublicradio/nypr-ui"
   },
   "keywords": [
